@@ -80,7 +80,8 @@ button {
 }
 
 .PostCreator-photo-video-button:hover {
-  opacity: 70%;
+    /* had to remove due to problems when deployed */
+  /* opacity: 70%; */
 }
 
 .PostCreator-photo-video-img {
