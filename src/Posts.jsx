@@ -16,7 +16,7 @@ function Posts (props) {
   const [liked, toggleLiked] = useState(false);
 
   useEffect(() => {
-  }, [liked, comments, comment, likes]);
+  }, [liked, comments, comment]);
 
   const likeClicked = () => {
     if (liked) {
@@ -31,7 +31,7 @@ function Posts (props) {
   const submitComment = (event) => {
     var code = event.keyCode || event.which;
     if (code === 13) {
-      addComments([comment, ...comments]);
+      addComments([...comments, comment]);
       setComment({...comment, commentText: ''});
     }
   }

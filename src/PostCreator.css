@@ -99,7 +99,8 @@ button {
 }
 
 .PostCreator-post-it-button:hover {
-  opacity: 70%;
+  /* had to remove due to problems when deployed */
+  /* opacity: 70%; */
 }
 
 @media screen and (max-width: 1200px){

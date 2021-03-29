@@ -16,7 +16,7 @@ function PostCreator (props) {
 
   const submitPost = () => {
     setPostInfo({...postInfo, postText: ''});
-    props.addPosts([postInfo, ...props.posts ]);
+    props.addPosts([postInfo, ...props.posts]);
   }
 
   return (
