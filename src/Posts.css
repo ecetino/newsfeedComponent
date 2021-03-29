@@ -1,0 +1,282 @@
+.Posts-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(172, 172, 172);
+}
+
+.Posts-header {
+  display: flex;
+  width: 750px;
+  height: 125px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 20px;
+}
+
+.Posts-profile-img {
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.Posts-header-info {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.Posts-header-name {
+  color: #585866;
+  font-size: 25px;
+  font-weight: 600;
+  width: 200px;
+}
+
+.Posts-header-location {
+  color: #5594e7;
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Posts-header-location-icon {
+  width: 14px;
+  height: 17px;
+  margin-right: 7px;
+}
+
+.Posts-header-time {
+  color: rgb(116, 114, 114);
+  font-weight: 600;
+}
+
+.Posts-meatballs-button {
+  margin-left: 340px;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+.Posts-meatballs-img {
+  width: 32px;
+}
+
+.Posts-text-wrapper {
+  display: flex;
+  background-color: #fff;
+  color: #454555;
+  height: auto;
+  width: 690px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.Posts-likes-comments {
+  display: flex;
+  font-weight: 500;
+  font-size: 22px;
+  background-color: #fff;
+  height: auto;
+  color: rgb(117, 119, 131);
+  padding: 10px 30px;
+  border-bottom: solid #dfdddd;
+  border-width: 2px;
+}
+.Posts-likes-comments-dot {
+  font-size: 40px;
+  color: gray;
+  height: auto;
+  line-height: 17px;
+  padding: 0px 7px;
+}
+
+.Posts-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  background-color: #f7f7f7;
+  color: #73737a;
+  padding: 10px 30px;
+  font-size: 24px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.Posts-footer-buttons {
+  border: none;
+  background-color: #f7f7f7;
+  font-size: 26px;
+  color: rgb(131, 130, 130);
+  text-align: center;
+}
+
+.Posts-footer-icons {
+  width: 22px;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1200px){
+  .Posts-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .Posts-header {
+    width: 650px;
+    height: 100px;
+    padding-top: 15px;
+  }
+
+  .Posts-profile-img {
+    height: 80px;
+    margin-left: 80px;
+    margin-right: 18px;
+  }
+
+  .Posts-header-info {
+    width: 200px;
+  }
+
+  .Posts-header-name {
+    font-size: 23px;
+    width: 200px;
+  }
+
+  .Posts-header-location {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+  }
+
+  .Posts-header-location-icon {
+    width: 13px;
+    height: 15px;
+  }
+
+  .Posts-header-time {
+    font-size: 16px;
+  }
+
+  .Posts-meatballs-button {
+    margin-left: 260px;
+    margin-right: 80px;
+  }
+
+  .Posts-meatballs-img {
+    width: 30px;
+  }
+
+  .Posts-text-wrapper {
+    width: 600px;
+    padding: 8px 25px;
+    font-size: 18px;
+  }
+
+  .Posts-likes-comments {
+    font-size: 20px;
+    padding: 10px 25px;
+  }
+
+  .Posts-likes-comments-dot {
+    font-size: 38px;
+  }
+
+  .Posts-footer {
+    padding: 10px 20px;
+  }
+
+  .Posts-footer-buttons {
+    font-size: 23px;
+  }
+
+  .Posts-footer-icons {
+    width: 19px;
+
+  }
+}
+
+@media screen and (max-width: 680px){
+  .Posts-wrapper {
+    margin-bottom: 3vw;
+  }
+
+  .Posts-header {
+    width: 95vw;
+    height: 15vw;
+    padding-top: 2vw;
+  }
+
+  .Posts-profile-img {
+    height: 13vw;
+    margin-left: 4vw;
+    margin-right: 3vw;
+  }
+
+  .Posts-header-info {
+    width: 18vw;
+  }
+
+  .Posts-header-name {
+    font-size: 3.5vw;
+  }
+
+  .Posts-header-location {
+    font-size: 2.7vw;
+    margin-top: 1vw;
+    margin-bottom: 0.8vw;
+  }
+
+  .Posts-header-location-icon {
+    width: 2vw;
+    height: 2.5vw;
+  }
+
+  .Posts-header-time {
+    font-size: 2.5vw;
+  }
+
+  .Posts-meatballs-button {
+    margin-left: 47vw;
+    margin-right: 3vw;
+  }
+
+  .Posts-meatballs-img {
+    width: 5vw;
+  }
+
+  .Posts-text-wrapper {
+    width: auto;
+    padding: 2vw 4vw;
+    font-size: 3vw;
+  }
+
+  .Posts-likes-comments {
+    font-size: 3.2vw;
+    padding: 1vw 4vw;
+  }
+
+  .Posts-likes-comments-dot {
+    font-size: 7vw;
+  }
+
+  .Posts-footer {
+    padding: 1.5vw 4vw;
+  }
+
+  .Posts-footer-buttons {
+    font-size: 3.8vw;
+  }
+
+  .Posts-footer-icons {
+    width: 3vw;
+  }
+}

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import PostCreator from './PostCreator.jsx';
+import Posts from './Posts.jsx';
 
-function App() {
+
+function App () {
+  const [userInfo, setUserInfo] = useState({
+    name: 'Edgar Cetino',
+    location: 'WA, USA',
+    title: 'Software Engineer',
+    profilePicture: './profile_pic.jpeg'
+  });
+  const [posts, addPosts] = useState([]);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-wrapper">
+      <PostCreator addPosts={addPosts} posts={posts} setUserInfo={setUserInfo} userInfo={userInfo}></PostCreator>
+      {posts.map((post) =>
+        <Posts postInfo={post}></Posts>
+      )}
     </div>
   );
 }

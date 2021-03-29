@@ -1,0 +1,198 @@
+textarea {
+  resize: none;
+  font: 400 13.3333px Arial;
+}
+
+button {
+  align-content: center;
+  justify-content: center;
+  outline: none;
+}
+
+::placeholder {
+  color: #808d9c;
+  font-weight: 600;
+}
+
+.PostCreator-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 750px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgb(172, 172, 172);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.PostCreator-upper {
+  display: flex;
+  height: 170px;
+  width: 750px;
+  justify-content: center;
+  align-items: center;
+}
+
+.PostCreator-profile-img {
+  height: 80px;
+  border-radius: 50%;
+  margin-left: -10px;
+  margin-right: 25px;
+  margin-top: 30px;
+  align-self: flex-start;
+}
+
+.PostCreator-textarea {
+  margin-top: 55px;
+  height: 60%;
+  width: 580px;
+  border: none;
+  font-size: 25px;
+  outline: none;
+  align-self: flex-start;
+}
+
+.PostCreator-lower {
+  display: flex;
+  height: 90px;
+  width: 750px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid #dfdddd;
+  border-width: 2px;
+}
+
+.PostCreator-photo-video-button {
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  justify-self: left;
+  margin-left: 30px;
+  border: none;
+}
+
+.PostCreator-photo-video-button:hover {
+  opacity: 70%;
+}
+
+.PostCreator-photo-video-img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.PostCreator-post-it-button {
+  background-color: #88B1FD;
+  margin-right: 30px;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 25px;
+}
+
+.PostCreator-post-it-button:hover {
+  opacity: 70%;
+}
+
+@media screen and (max-width: 1200px){
+
+  .PostCreator-wrapper {
+    width: 650px;
+    margin-bottom: 20px;
+  }
+
+  .PostCreator-upper {
+    height: 150px;
+    width: 650px;
+  }
+
+  .PostCreator-profile-img {
+    height: 70px;
+    margin-left: 25px;
+    margin-right: 22px;
+    margin-top: 25px;
+  }
+
+  .PostCreator-textarea {
+    margin-top: 47px;
+    font-size: 22px;
+  }
+
+  .PostCreator-lower {
+    display: flex;
+    height: 75px;
+    width: 650px;
+  }
+
+  .PostCreator-photo-video-button {
+    display: flex;
+    padding: 7px 15px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 25px;
+  }
+
+  .PostCreator-photo-video-img {
+    width: 20px;
+  }
+
+  .PostCreator-post-it-button {
+    margin-right: 25px;
+    font-size: 19px;
+    padding: 10px 25px;
+  }
+}
+
+@media screen and (max-width: 680px){
+
+  .PostCreator-wrapper {
+    width: 95vw;
+  }
+
+  .PostCreator-upper {
+    width: 95vw;
+    height: 25vw;
+  }
+
+  .PostCreator-profile-img {
+    height: 10vw;
+    margin-left: 4vw;
+    margin-right: 3vw;
+    margin-top: 4vw;
+  }
+
+  .PostCreator-textarea {
+    margin-top: 7.5vw;
+    font-size: 3vw;
+  }
+
+  .PostCreator-lower {
+    height: 12vw;
+    width: 95vw;
+  }
+
+  .PostCreator-photo-video-button {
+    padding: 1vw 2vw;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    margin-left: 4vw;
+  }
+
+  .PostCreator-photo-video-img {
+    width: 3vw;
+  }
+
+  .PostCreator-post-it-button {
+    margin-right: 4vw;
+    font-size: 3.5vw;
+    padding: 1.5vw 4vw;
+  }
+}

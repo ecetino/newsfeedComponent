@@ -1,0 +1,249 @@
+::placeholder {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.Comments-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.Comments-add-comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Comments-add-comment-profile-img {
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 25px;
+  align-self: flex-start;
+}
+
+.Comments-add-comment-input {
+  width: 560px;
+  height: 60px;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 300;
+  border: solid rgb(116, 114, 114);
+  border-width: 2px;
+  padding: 0px 20px;
+}
+
+.Comment {
+  display: flex;
+  margin-top: 20px;
+}
+
+.Comment-profile-img {
+  height: 60px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 25px;
+}
+
+.Comment-post {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  height: auto;
+  background-color: #d9e1eb;
+  border-radius: 15px;
+  padding: 20px 20px;
+}
+
+.Comment-post-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: rgb(127, 130, 155);
+}
+
+.Comment-post-header-name {
+  font-weight: 600;
+  color: rgb(41, 38, 38);
+}
+
+.Comment-post-title {
+  font-size: 18px;
+  color: #5594e7;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.Comment-post-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(66, 66, 66);
+  margin-top: 5px;
+}
+
+.Comment-post-footer {
+  font-size: 23px;
+  font-weight: 400;
+  color: rgb(117, 114, 114);
+  margin-top: 5px;
+  margin-left: -5px;
+}
+
+.Comment-post-footer-button {
+  outline: none;
+  border: none;
+  background-color: #d9e1eb;
+  color: #73737a;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Comment-post-footer-button-icons {
+  width: 16px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1200px){
+  ::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .Comments-add-comment {
+    margin-top: 18px;
+  }
+
+  .Comments-add-comment-profile-img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 3px;
+  }
+
+  .Comments-add-comment-input {
+    width: 485px;
+    height: 50px;
+    font-weight: 300;
+    padding: 0px 20px;
+  }
+
+  .Comment {
+    margin-top: 18px;
+  }
+
+  .Comment-profile-img {
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .Comment-post {
+    width: 500px;
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+  .Comment-post-header {
+    font-size: 19px;
+  }
+
+  .Comment-post-title {
+    font-size: 17px;
+    margin-top: 4px;
+  }
+
+  .Comment-post-text {
+    font-size: 17px;
+    margin-top: 4px;
+  }
+
+  .Comment-post-footer {
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-left: -6px;
+  }
+
+  .Comment-post-footer-button {
+    font-size: 17px;
+  }
+
+  .Comment-post-footer-button-icons {
+    width: 14px;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 680px){
+  ::placeholder {
+    font-size: 3vw;
+    font-weight: 400;
+  }
+
+  .Comments-add-comment {
+    margin-top: 2.5vw;
+  }
+
+  .Comments-add-comment-profile-img {
+    height: 8vw;
+    margin-right: 3vw;
+    margin-top: 3px;
+  }
+
+  .Comments-add-comment-input {
+    width: 69vw;
+    height: 8vw;
+    font-weight: 300;
+    padding: 0vw 3vw;
+  }
+
+  .Comment {
+    margin-top: 2.5vw;
+  }
+
+  .Comment-profile-img {
+    height: 8vw;
+    margin-right: 3vw;
+  }
+
+  .Comment-post {
+    width: 70vw;
+    padding: 3vw;
+  }
+
+  .Comment-post-header {
+    font-size: 3.1vw;
+  }
+
+  .Comment-post-title {
+    font-size: 2.7vw;
+    margin-top: 0.7vw;
+  }
+
+  .Comment-post-text {
+    font-size: 2.7vw;
+    margin-top: 0.7vw;
+  }
+
+  .Comment-post-footer {
+    font-size: 3.1vw;
+    margin-top: 0.7vw;
+    margin-left: -0.9vw;
+  }
+
+  .Comment-post-footer-button {
+    font-size: 2.7vw;
+  }
+
+  .Comment-post-footer-button-icons {
+    width: 2.2vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 0.9vw;
+  }
+}
