@@ -31,7 +31,7 @@ function Posts (props) {
   const submitComment = (event) => {
     var code = event.keyCode || event.which;
     if (code === 13) {
-      addComments([...comments, comment]);
+      addComments([comment, ...comments]);
       setComment({...comment, commentText: ''});
     }
   }
@@ -75,7 +75,7 @@ function Posts (props) {
            <input className='Comments-add-comment-input' value={comment.commentText} onChange={event => setComment({...comment, commentText: event.target.value})} onKeyPress={submitComment} placeholder='Add a comment'></input>
          </div>}
         {showAddComment && comments.map((comment) =>
-          <Comments commentInfo={comment}></Comments>
+          <Comments key={comment.commentText} commentInfo={comment}></Comments>
         )}
       </div>
     </div>

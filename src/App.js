@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import PostCreator from './PostCreator.jsx';
 import Posts from './Posts.jsx';
@@ -11,14 +11,17 @@ function App () {
     title: 'Software Engineer',
     profilePicture: './profile_pic.jpeg'
   });
+
   const [posts, addPosts] = useState([]);
 
+  useEffect(() => {
+  }, [posts]);
 
   return (
     <div className="App-wrapper">
       <PostCreator addPosts={addPosts} posts={posts} setUserInfo={setUserInfo} userInfo={userInfo}></PostCreator>
       {posts.map((post) =>
-        <Posts postInfo={post}></Posts>
+        <Posts key={post.postText} postInfo={post}></Posts>
       )}
     </div>
   );
