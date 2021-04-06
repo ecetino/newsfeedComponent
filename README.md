@@ -30,7 +30,7 @@ Project Link: [github.com/ecetino/newsfeedComponent](https://github.com/ecetino/
 <!-- DEMO -->
 ### Demo
 
-<img src="https://my-misc-items.s3-us-west-1.amazonaws.com/NewsfeedComponent.gif" alt="demo">
+<img src="https://my-misc-items.s3-us-west-1.amazonaws.com/NewsfeedComponent.gif" alt="demo" width="500px">
 
 <!-- Built With -->
 ### Built With
