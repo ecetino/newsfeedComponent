@@ -26,6 +26,7 @@
 A Front-end only implementation of a social media newsfeed. I created this component to improve my vanilla css skillset and to showcase my ability for responsive design. 
 
 Project Link: [github.com/ecetino/newsfeedComponent](https://github.com/ecetino/newsfeedComponent)
+<br/>
 Demo Link: [newsfeed-component-demo.vercel.app/](https://newsfeed-component-demo.vercel.app/)
 
 <!-- DEMO -->
